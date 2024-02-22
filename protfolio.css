@@ -1,0 +1,45 @@
+.footer{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #aeab91;
+    color: #fff;
+    bottom: 0px;
+    width: auto;
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 20px;
+}
+.header{
+    top: 0px;
+    width: auto;
+    background-color: #6c8d65;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    color: aqua;
+    text-align: center;
+}
+.header nav ul li{
+    display: inline;
+    margin: 0px;
+    padding: 10px;
+}
+.project {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
